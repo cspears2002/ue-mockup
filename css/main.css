@@ -105,18 +105,22 @@ textarea {
   visibility: hidden;
 }
 
-#super_container {
-  height: 400px;
-  width: 306px;
+#super-container {
+  /*height: 400px;
+  width: 306px;*/
   margin: 0 auto;
   float: center;
   margin-top: 15px;
   border: 1px solid black;
 }
 
+#dropdown {
+  margin: 10px;
+}
+
 #login {
-  width: 70%;
-  height: 230px;
+  /*width: 70%;
+  height: 230px;*/
   margin: 0 auto;
   top: 41px;
   left: 45.9px;
@@ -127,6 +131,10 @@ textarea {
   text-align: center;
   opacity: 0.8;
   display: none;
+}
+
+#loc-rev {
+  /*width: 300px;*/
 }
 
 
