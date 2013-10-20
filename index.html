@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <meta name="viewport" content="width=initial-device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <title>Urban Ephemera</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -14,16 +14,26 @@
     </select>
 
     <div id="login">
-      <input type="text" name="user" value="User">
-      <input type="text" name="password" value="Password">
-      <input type="submit" value="Login">
+      <div id="login-input">
+        <div id="user">
+          <input type="text" name="user" value="User" class="text-field">
+        </div>
+        <div id="password">
+          <input type="text" name="password" value="Password" class="text-field">
+          <input type="submit" value="Login" class="buttons">
+        </div>
+      </div>
     </div>
 
     <div id="loc-rev">
-      <input type="text" name="location" value="Location">
-      <input type="submit" value="Submit">
+      <div id="location">
+        <input type="text" name="location" value="Location" class="text-field">
+        <input type="submit" value="Submit" class="buttons">
+      </div>
 
-      <input type="button" value="Review">
+      <div id="review">
+        <input type="button" value="Submit Review" class="buttons">
+      </div>
     </div>
   </div>
 
