@@ -107,11 +107,19 @@ textarea {
 
 .text-field {
   border-radius: 50px;
+  border: none;
   text-indent: 10px;
 }
 
 .buttons {
-  border-radius: 50px;
+  background-color: #F8F8F8;
+  border: none;
+}
+
+#dropdown {
+  opacity: 0.8;
+  border: none;
+  margin: 10px;
 }
 
 body,html {
@@ -131,9 +139,7 @@ body,html {
   border: 1px solid black;
 }
 
-#dropdown {
-  margin: 10px;
-}
+
 
 /*----- Login ----*/
 
@@ -167,11 +173,11 @@ body,html {
 }
 
 #location {
-  margin: 5px;
+  margin: 10px;
 }
 
 #review {
-  margin: 5px;
+  margin: 10px;
 }
 
 /* ==========================================================================
