@@ -114,15 +114,19 @@ textarea {
   border-radius: 50px;
 }
 
-body {
+body,html {
+  height: 100%;
 }
 
 #super-container {
   background-image: url('../img/IMG_0003.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
   margin: 5px;
   float: center;
   margin-top: 15px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 
 #dropdown {
